@@ -35,13 +35,7 @@ div#display-outer {
 div#display {
   display: inline-block;
 }
-.censor {
-	filter: blur(15px);
-	-webkit-filter: blur(15px);
-}
-.censor-fallback {
-	background-color: white;
-}
+
 #warning {
 	z-index: 1;
 	position: fixed;
