@@ -474,3 +474,8 @@ table {
 canvas {
 	z-index: 0 !important;
 }
+
+.status { 
+	line-height: 0.5;
+	font-size: 0.5em;
+}
