@@ -30,7 +30,6 @@ div#display-outer {
     display: table;
     vertical-align: middle;
     text-align: center;
-	margin-top: 38px;
 }
 div#display {
   display: inline-block;
