@@ -156,12 +156,10 @@ nav{
 	}
 	#kbd-container{
 		margin-left:200px;
-		width:1024px;
 	}
 }
 @media (min-width:1500px){
 	#display-outer{
-  		width:1024px;
 	}
 	#kbd-container+div>.col-md-8{
 		position:absolute;
