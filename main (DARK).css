@@ -474,9 +474,9 @@ canvas {
 	z-index: 0 !important;
 }
 
-.status { 
-	line-height: 0.5;
-	font-size: 0.5em;
+.status, h3 { 
+	line-height: 0.5 !important;
+	font-size: 0.5em !important;
 }
 
 li.list-group-item.has-turn, li.list-group-item.waiting {
