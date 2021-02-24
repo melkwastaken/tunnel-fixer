@@ -107,9 +107,6 @@ table {
 	right: 5px;
 }
 
-.message-pane li:hover {
-	background-color: #f7f7f7;
-}
 
 .message-pane li:hover small {
 	display: block;
