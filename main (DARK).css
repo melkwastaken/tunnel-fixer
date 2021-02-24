@@ -473,3 +473,7 @@ table {
   display: flex;
   flex-wrap: wrap;
 }
+
+canvas {
+	z-index: 0 !important;
+}
