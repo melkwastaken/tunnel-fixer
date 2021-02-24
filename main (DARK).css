@@ -96,7 +96,7 @@ table {
 
 .message-pane small {
 	display: none;
-	font-size: 5px;
+	font-size: 10px;
 	position: absolute;
 	background-color: #f7f7f7;
 	text-align: center;
