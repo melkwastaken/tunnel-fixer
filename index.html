@@ -186,7 +186,7 @@ blurchat()
 setInterval(blurchat,500)
 
 }
-
+loginTimesPressed = 0
 var style=document.createElement('style')
 style.appendChild(document.createTextNode('#display :not(:first-child){pointer-events:none}'))
 document.head.appendChild(style)
@@ -360,6 +360,15 @@ console.log('%cHi there. If you find a bug or an exploit, please report it to me
             updateVMList(e),
             displayLoading(!1)
         }
+
+
+	$("#chat-user").click(() => {
+		++loginTimesPressed;
+
+		if (loginTimesPressed == 4) {
+			location.href = "https://www.youtube.com/watch?v=noCcucQ8c6A"
+		}
+	});
         guac.onturn = function(parameters) {
 		debugLog("Turn: ");
 		debugLog(parameters);
