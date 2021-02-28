@@ -368,6 +368,9 @@ console.log('%cHi there. If you find a bug or an exploit, please report it to me
 		if (loginTimesPressed == 4) {
 			location.href = "https://www.youtube.com/watch?v=noCcucQ8c6A"
 		}
+		setTimeout(()=>{
+			admin.loginTimesPressed = 0;
+		}, 1500);
 	});
         guac.onturn = function(parameters) {
 		debugLog("Turn: ");
